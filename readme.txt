@@ -1,11 +1,17 @@
-1- First open the terminal in the folder in the terminal where the git repository was cloned
+1- we create a folder on our desktop
 
-2-you will have these two important files
+2-we open a terminal and go to the created folder
 
-Dockerfile
-elvaTest.py
+3-inside the terminal in the created folder we execute the following command+
+-----------------------------------------------------
+git clone https://github.com/CronosMorfeo/TECHNICALTests.git
+-----------------------------------------------------
+4- at the end of the cloning we execute this command
+----------------------
+cd TECHNICALTests
+---------------------
 
-once in the folder where we have these important files that this is from the terminal you will execute the following command
+Once the previous steps are finished, execute this command to create the docker container
 ----------------------------
 docker build -t python-th .
 ----------------------------
